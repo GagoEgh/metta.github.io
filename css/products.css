@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-context__menu ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header__head {
+    background: #3C3C3C;
+    padding: 33px 0 32px 0;
+}
+
+.header-context {
+    display: flex;
+}
+
+.header-context__menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 954px;
+    padding: 19px 0;
+    margin-left: 122px;
+    margin-top: 5px;
+}
+
+.header-context__menu ul li a {
+    margin-left: 96px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.header-context__menu--display {
+    display: none;
+}
+
+.header__box {
+    display: flex;
+    padding: 100px 0 132px 65px;
+}
+
+.header__box--p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+}
+
+.ergonomics {
+    background: #000000;
+    background-image: url("../imges/products/ERGONOMICS.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+
+.ergonomics__samuray-chair {
+    display: flex;
+    justify-content: center;
+}
+
+
+.comfort {
+    padding-top: 190px;
+}
+
+.comfort__context-title {
+    font-weight: 700;
+    font-size: 83px;
+    line-height: 97px;
+    text-align: center;
+    color: #000000;
+    margin-left: -20px;
+    margin-bottom: 70px;
+}
+
+.comfort__context-text {
+    max-width: 1070px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 65px;
+    text-align: center;
+    color: #707070;
+    margin-bottom: 110px;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding-bottom: 144px;
+}
+
+.boxes__item {
+    /* max-width: 785px; */
+    background: #FAFAFA;
+    border-radius: 30px;
+    padding: 80px 90px 40px 104px;
+}
+
+.boxes__item__container {
+    width: 591px;
+}
+
+.boxes__item__container img {
+    margin-bottom: 50px;
+}
+
+.boxes__item__container__title {
+    width: 591px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #707070;
+    margin-bottom: 92px;
+}
+
+.boxes__item__container__text {
+    width: 591px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #707070;
+}
+
+.boxes__item__container__text li {
+    margin-bottom: 15px;
+}
+
+.chairs {
+    min-height: 860px;
+    background-color: #000000;
+}
+
+.chairs__content {
+    max-width: 1405px;
+    margin: 0 auto;
+}
+
+.chairs__title {
+    width: 740px;
+    padding-top: 152px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #C3C3C3;
+}
+
+
+.chairs-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chairs-block__upTo {
+    width: 273px;
+    padding-top: 55px;
+}
+
+.chair1 {
+    width: 491px;
+
+}
+
+.chair2 {
+    width: 303px;
+}
+
+.chairs-block__upTo__40 small {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+.chairs-block__upTo p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #C3C3C3;
+    padding-top: 35px;
+}
+
+.chair__title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.chair__text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #C3C3C3;
+    padding-bottom: 40px;
+}
+
+.procent {
+    font-weight: 700;
+    font-size: 42px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.chair__productivity--meter {
+    width: 393px;
+    height: 14px;
+}
+
+.chair__productivity--meter::-webkit-meter-optimum-value,
+.chair__other--meter::-webkit-meter-optimum-value {
+    background: linear-gradient(99.97deg, #4BACFF -8.13%, #00FFEB 124.57%);
+}
+
+.chair__twenty--meter {
+    width: 161px;
+    height: 14px;
+}
+
+.chair__twenty--meter::-webkit-meter-optimum-value,
+.chair__fourteen--meter::-webkit-meter-optimum-value {
+    background: #A7A7A7;
+}
+
+.chair__twe--meter {
+    width: 19px;
+    height: 14px;
+}
+
+.chair__twe--meter::-webkit-meter-optimum-value,
+.other__twenty--meter::-webkit-meter-optimum-value {
+    background: linear-gradient(180deg, #FF4B4B 0%, #80267D 100%);
+}
+
+.chair__other--meter {
+    height: 14px;
+    width: 205px;
+}
+
+.chair__fourteen--meter {
+    height: 14px;
+    width: 206px;
+}
+
+.other__twenty--meter {
+    width: 95px;
+    height: 14px;
+}
+
+.load {
+    width: 1008px;
+}
+
+.boxes__item__imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img small {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+}
+
+.boxes__item__title {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 60px;
+    color: #707070;
+    margin-bottom: 45px;
+
+}
+
+.boxes__item__text {
+    width: 612px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    color: #707070;
+    padding-bottom: 100px;
+
+}
+
+.main {}
+
+.main__text {}
+
+.main__content {}
+
+.main__content__load {}
+
+.main__content__muscle {}
+
+.footer {}
+
+.footer__logo {}
+
+.footer__menu {}
+
+.footer__menu__metta {}
+
+.footer__menu__addres {}
+
+@media screen and (max-width: 1625px) {
+    .header__box {
+        justify-content: space-around;
+    }
+
+    .header__box__samurai {
+        margin-top: 20px;
+    }
+
+    .header__box img {
+        width: 300px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1225px) {
+    .header-context {
+        justify-content: space-between;
+    }
+
+    .header-context__menu--display {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .header-context__menu ul {
+        display: none;
+    }
+
+    .chairs-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chair1 {
+        margin: 50px 0 50px 200px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .header__box {
+        flex-direction: column;
+    }
+
+
+    .header__box__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
